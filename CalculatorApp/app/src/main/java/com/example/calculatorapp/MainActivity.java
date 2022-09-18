@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity
         checkForPowerOf();
 
         try {
-            result = (double)engine.eval(workings);
+            result = (double)engine.eval(formula);
         } catch (ScriptException e)
         {
             Toast.makeText(this, "Invalid Input", Toast.LENGTH_SHORT).show();
